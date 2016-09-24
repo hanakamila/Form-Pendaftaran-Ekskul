@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void doClick() {
-        String ekskul = "Ekskul yang dipilih";
+        String ekskul = "Ekskul yang dipilih\n";
         int startlen = ekskul.length();
         if (cbPadus.isChecked()) ekskul += cbPadus.getText() + "\n";
         if (cbBasket.isChecked()) ekskul += cbBasket.getText() + "\n";
